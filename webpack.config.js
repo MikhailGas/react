@@ -2,6 +2,10 @@ const path = require("path");
 const webpack = require('webpack');
 
 module.exports = {
+    resolve:{
+        modules: ['/static_src','/node_modules'],
+        extensions:['.js', '.jsx']
+    },
    entry: {
        app: './index.js',
    },
