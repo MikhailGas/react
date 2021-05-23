@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MessageField from './pages/MessageField';
+import MessageField from './components/MessageField';
 
 
 ReactDOM.render(
