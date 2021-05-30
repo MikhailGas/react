@@ -1,0 +1,9 @@
+.icon{
+    color: #2b5278;
+    cursor: pointer;
+}
+
+.messlist{
+    overflow: auto;
+    max-height: 500px;
+}

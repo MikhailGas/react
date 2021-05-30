@@ -2,10 +2,10 @@ const path = require("path");
 const webpack = require('webpack');
 
 module.exports = {
-    resolve:{
+    /*resolve:{
         modules: ['/static_src','/node_modules'],
         extensions:['.js', '.jsx']
-    },
+    },*/
    entry: {
        app: './index.js',
    },
@@ -35,6 +35,10 @@ module.exports = {
                 },
                 
             },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
             
         ],
     },
