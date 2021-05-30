@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve",
+    "dev": "webpack serve --stats-error-details",
     "build": "webpack --mode development"
   },
   "author": "Mikhail",
@@ -17,13 +17,26 @@
     "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
     "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
     "webpack": "^5.36.2"
   },
   "devDependencies": {
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailGas/react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MikhailGas/react/issues"
+  },
+  "homepage": "https://github.com/MikhailGas/react#readme"
 }
